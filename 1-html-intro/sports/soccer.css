@@ -1,0 +1,55 @@
+#heading {
+    color: rgb(123, 255, 106);
+    background-color: mediumorchid
+    opacity: 0.5;
+        }
+
+.fonts {
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "ink free";
+    text-align: center;
+}
+
+span{
+    border: black solid 5px;
+    border-radius: 25px;S
+    padding: 20px;
+}
+
+ul {
+    list-style: disc;
+}   
+circle, square, e.t.c
+ol{
+    list-style: upper-roman;
+}
+
+table, th,td{
+    border:2px solid black
+}
+
+table {
+border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+}
+
+.button {
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding:5px;
+    transition: all .8s;
+}
+
+.button:hover {
+    background-color: gray;
+    font-size: 15px;
+    }
