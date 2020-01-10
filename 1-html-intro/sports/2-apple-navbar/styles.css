@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    background-color: f2f2;
+}
+.navbar{
+    background-color: #313113;
+    color: #cbcbcb;
+    width: 100%;
+    position: fixed;
+    opacity: .9;
+}
+
+.nav-list{
+    display: flex;
+    list-style:none;
+    width: 1000px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 14px;
+} 
+
+.icon{
+    font-size: 1.5em;
+    color: white;
+}
+
+.nav-item{
+    transition: all .3s
+}
+
+.nav-item:hover {
+    color:white;
+    cursor: pointer;
+}
+
+.main {
+    padding-top: 44px;
+    width: 100%;
+    height:750px;
+    background-image: url("https://www.thephoblographer.com/wp-content/uploads/2018/01/apple-iphone-x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-item a {
+    color: white;
+}
+
+.card-item p {
+    margin: 20px 0px;
+}
+
+.card-1{
+    background-color: #e7485a;
+   }
+   .card-2{
+    background-color: #1e4f6f;
+   }
+   .card-3{
+    background-color: #4caf50;
+   }
+   .card-4{
+    background-color: #FBC02D;
+   }
